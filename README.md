@@ -4,4 +4,4 @@ Realizar un pequeño utilitario que utilizando el crate reqwest imprima por pant
 
 ## Modificacion
 
-Como la API de Twitter ya no es publica, se utilizo la API de [eBird](https://documenter.getpostman.com/view/664302/S1ENwy59#intro), para consultar observaciones de aves en Argentina.
+Como la API de Twitter ya no es publica, se utilizo la [API de eBird](https://documenter.getpostman.com/view/664302/S1ENwy59#intro), para consultar observaciones de aves en Argentina.
