@@ -20,6 +20,7 @@ async fn run() -> Result<(), Box<dyn std::error::Error>> {
         .json::<Vec<Observation>>()
         .await?;
 
+    // Debido a que la API no permite obtener datos aleatorios, se mezclan manualmente.
     let mut rng = rand::thread_rng();
     let chosen = observations.into_iter().choose_multiple(&mut rng, 10);
 
